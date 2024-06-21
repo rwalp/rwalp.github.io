@@ -1,0 +1,159 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Poppins' ,sans-serif;
+text-decoration: none;
+list-style: none;
+position: relative;
+}
+
+.header{
+position: fixed;
+top: 0; left: 0;
+width: 100%;
+padding: 35px 12%;
+background: #212b38;
+backdrop-filter: blur(10px);
+display: flex;
+justify-content: space-between;
+align-items: center;
+z-index: 100;
+}
+
+.logo{
+font-size: 30px;
+color: white;
+font-weight: 600;
+transition: 0.2s ease;
+}
+
+.logo:hover{
+color: gray;
+text-shadow: 0 0 25px black,
+             0 0 50px black;
+transform: scale(1.1);
+}
+
+span{
+color: gray;
+}
+
+.navbar ul{
+display: flex;
+}
+
+.navbar a{
+font-size: 20px;
+color: white;
+font-weight: 600;
+margin: 0 25px;
+border-bottom: 3px solid transparent;
+transition: 0.3s ease;
+border-radius: 8px;
+}
+
+.navbar a:hover,
+.navbar a.active{
+background-color: #212b38;
+color: blue;
+border-radius: 8px;
+transition: 0.3 ease;
+}
+
+.dropdown-menu {
+display: none;
+}
+
+.navbar ul li:hover .dropdown-menu{
+display: block;
+position: absolute;
+left: 0;
+top: 100%;
+background: #212b38;
+border-radius: 20px;
+}
+
+.dropdown-menu ul{
+display: block;
+}
+
+.dropdown-menu ul li{
+width: 150px;
+padding: 10px;
+}
+
+
+.about{
+padding: 5px 30px;
+background-color: white;
+color: black;
+border: 2px solid transparent;
+border-radius: 10px;
+font-size: 18px;
+letter-spacing: 1px;
+font-weight: 600;
+transition: 0.3 ease;
+}
+
+.about:hover{
+background-color: gray;
+box-shadow: 0 0 25px black;
+color: white;
+}
+
+.home{
+width: 100%;
+min-height: 100vh;
+background: rgb(241, 241, 241);
+display: flex;
+align-items: center;
+gap: 7em;
+padding: 30px 12% 0;
+}
+
+.box img{
+position: relative;
+width: 550px;
+box-shadow: 0 0 100px black;
+border-radius: 50%;
+}
+
+.aboutme{
+justify-content: center;
+align-items: center;
+padding: 12% 8%;
+gap: 10em;
+background: black;
+}
+
+.about-img img{
+position: relative;
+width: 550px;
+box-shadow: 0 0 25px yellow;
+border-radius: 50%
+}
+
+.about-content h2{
+text-align: left;
+color: white;
+font-size: 45;
+}
+
+.about-content p{
+color: white;
+font-size: 20px;
+margin: 1em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
